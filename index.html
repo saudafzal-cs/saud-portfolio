@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SAUD_AFZAL | Cybersecurity Portfolio</title>
+
+    <meta name="description"
+        content="Saud Afzal's professional portfolio in cybersecurity, networking and software development.">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background: #080b0a;
+            color: #f5f7f6;
+            font-family: Arial, sans-serif;
+            min-height: 100vh;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 28px 8%;
+            border-bottom: 1px solid #202622;
+        }
+
+        .logo {
+            font-size: 21px;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+
+        .logo span {
+            color: #75f0a5;
+        }
+
+        .status {
+            color: #75f0a5;
+            font-size: 11px;
+            letter-spacing: 1.5px;
+        }
+
+        main {
+            max-width: 1100px;
+            margin: auto;
+            padding: 110px 8% 80px;
+        }
+
+        .intro {
+            color: #75f0a5;
+            font-size: 12px;
+            letter-spacing: 3px;
+            margin-bottom: 27px;
+        }
+
+        h1 {
+            font-size: clamp(42px, 7vw, 76px);
+            line-height: 1.15;
+            letter-spacing: -3px;
+            margin-bottom: 25px;
+        }
+
+        h1 span {
+            color: #75f0a5;
+        }
+
+        .description {
+            color: #a2aaa5;
+            font-size: 16px;
+            line-height: 1.9;
+            max-width: 570px;
+        }
+
+        .buttons {
+            display: flex;
+            gap: 15px;
+            margin-top: 35px;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 14px 22px;
+            border: 1px solid #75f0a5;
+            text-decoration: none;
+            color: #75f0a5;
+            font-size: 13px;
+            transition: 0.3s;
+        }
+
+        .btn.primary {
+            background: #75f0a5;
+            color: #080b0a;
+        }
+
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 0 22px #75f0a530;
+        }
+
+        .tagline {
+            margin-top: 60px;
+            color: #d5ddd7;
+            font-size: 14px;
+            letter-spacing: 0.5px;
+        }
+
+        .tagline span {
+            color: #75f0a5;
+        }
+
+        .bottom {
+            display: flex;
+            gap: 30px;
+            flex-wrap: wrap;
+            border-top: 1px solid #202622;
+            margin-top: 55px;
+            padding-top: 25px;
+            color: #929b95;
+            font-size: 11px;
+            letter-spacing: 1px;
+        }
+
+        @media (max-width: 600px) {
+            nav {
+                padding: 22px 6%;
+            }
+
+            main {
+                padding: 80px 6% 50px;
+            }
+
+            h1 {
+                letter-spacing: -2px;
+            }
+
+            .status {
+                font-size: 9px;
+                letter-spacing: 0.5px;
+            }
+
+            .logo {
+                font-size: 17px;
+            }
+
+            .bottom {
+                gap: 18px;
+            }
+        }
+
+        /* RESPONSIVE DESIGN */
+        @media (max-width: 768px) {
+
+            nav {
+                padding: 18px 6% !important;
+            }
+
+            main {
+                padding-left: 6% !important;
+                padding-right: 6% !important;
+            }
+
+            section {
+                padding-left: 6% !important;
+                padding-right: 6% !important;
+            }
+
+            h1 {
+                font-size: clamp(42px, 11vw, 64px) !important;
+                line-height: 1.08 !important;
+            }
+
+            h2 {
+                font-size: clamp(30px, 8vw, 42px) !important;
+            }
+
+            footer {
+                padding-left: 6% !important;
+                padding-right: 6% !important;
+            }
+        }
+
+        @media (max-width: 480px) {
+
+            a {
+                max-width: 100%;
+            }
+
+            section {
+                padding-top: 65px !important;
+                padding-bottom: 65px !important;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo">SAUD<span>_</span>AFZAL</div>
+        <div class="status">CYBERSECURITY / PORTFOLIO</div>
+    </nav>
+
+    <main>
+        <p class="intro">COMPUTER SCIENCE · CYBERSECURITY</p>
+
+        <h1>
+            Building secure<br>
+            <span>systems.</span>
+        </h1>
+
+        <p class="description">
+            I'm Saud Afzal, a Computer Science student exploring
+            cybersecurity, networking and software development
+            through practical projects and continuous learning.
+        </p>
+
+        <div class="buttons">
+            <a href="#projects" class="btn primary">
+                Explore My Work ↗
+            </a>
+
+            <a href="#contact" class="btn">
+                Get In Touch
+            </a>
+        </div>
+
+        <p class="tagline">
+            <span>//</span> Building secure systems.
+            Learning by building.
+        </p>
+
+        <div class="bottom"></div>
+        <span>01 / CYBERSECURITY</span>
+        <span>02 / NETWORKING</span>
+        <span>03 / DEVELOPMENT</span>
+        </div>
+    </main>
+    <!-- ABOUT SECTION -->
+    <section id="about" style="
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 70px 8%;
+        border-top: 1px solid #202622;
+    ">
+        <p style="
+            color: #75f0a5;
+            font-size: 12px;
+            letter-spacing: 3px;
+            margin-bottom: 20px;
+        ">01 / ABOUT ME</p>
+
+        <h2 style="
+            font-size: clamp(30px, 5vw, 48px);
+            margin-bottom: 25px;
+            letter-spacing: -1px;
+        ">
+            Beyond the code.<br>
+            <span style="color: #75f0a5;">
+                Focused on security.
+            </span>
+        </h2>
+
+        <p style="
+            color: #a2aaa5;
+            font-size: 16px;
+            line-height: 1.9;
+            max-width: 720px;
+        ">
+            I'm Saud Afzal, a BSCS student building my foundation
+            in cybersecurity, computer networks and software
+            development. I enjoy learning through practical work,
+            exploring how systems operate and understanding how
+            they can be made more secure.
+        </p>
+
+        <p style="
+            color: #a2aaa5;
+            font-size: 16px;
+            line-height: 1.9;
+            max-width: 720px;
+            margin-top: 18px;
+        ">
+            My goal is to develop real-world skills, build meaningful
+            projects and grow into a cybersecurity professional
+            through consistent learning and hands-on practice.
+        </p>
+
+        <div style="
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-top: 30px;
+        ">
+            <span style="border: 1px solid #303a33;
+            padding: 10px 14px; color: #d5ddd7; font-size: 13px;">
+                BSCS Student
+            </span>
+
+            <span style="border: 1px solid #303a33;
+            padding: 10px 14px; color: #d5ddd7; font-size: 13px;">
+                Cybersecurity
+            </span>
+
+            <span style="border: 1px solid #303a33;
+            padding: 10px 14px; color: #d5ddd7; font-size: 13px;">
+                Networking
+            </span>
+
+            <span style="border: 1px solid #303a33;
+            padding: 10px 14px; color: #d5ddd7; font-size: 13px;">
+                Continuous Learning
+            </span>
+        </div>
+    </section>
+    <!-- END ABOUT SECTION -->
+    <!-- TECHNICAL SKILLS SECTION -->
+    <section id="skills" style="
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 75px 8%;
+        border-top: 1px solid #202622;
+    ">
+        <p style="
+            color: #75f0a5;
+            font-size: 12px;
+            letter-spacing: 3px;
+            margin-bottom: 18px;
+        ">02 / TECHNICAL EXPERTISE</p>
+
+        <h2 style="
+            font-size: clamp(32px, 5vw, 48px);
+            letter-spacing: -1.5px;
+            margin-bottom: 18px;
+        ">
+            Skills & <span style="color: #75f0a5;">Technologies.</span>
+        </h2>
+
+        <p style="
+            color: #a2aaa5;
+            font-size: 15px;
+            line-height: 1.8;
+            max-width: 650px;
+            margin-bottom: 35px;
+        ">
+            Developing practical skills across programming,
+            networking and cybersecurity through coursework,
+            experimentation and hands-on projects.
+        </p>
+
+        <div style="
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 18px;
+        ">
+
+            <div style="
+                background: #101512;
+                border: 1px solid #26352b;
+                padding: 25px;
+                border-radius: 10px;
+            ">
+                <p style="color: #75f0a5; font-size: 12px;
+                letter-spacing: 2px; margin-bottom: 18px;">
+                    01 / PROGRAMMING
+                </p>
+
+                <h3 style="font-size: 20px; margin-bottom: 12px;">
+                    Development
+                </h3>
+
+                <p style="color: #a2aaa5; line-height: 1.9;
+                font-size: 14px;">
+                    Python<br>
+                    C++<br>
+                    Object-Oriented Programming<br>
+                    Django Fundamentals
+                </p>
+            </div>
+
+            <div style="
+                background: #101512;
+                border: 1px solid #26352b;
+                padding: 25px;
+                border-radius: 10px;
+            ">
+                <p style="color: #75f0a5; font-size: 12px;
+                letter-spacing: 2px; margin-bottom: 18px;">
+                    02 / NETWORKING
+                </p>
+
+                <h3 style="font-size: 20px; margin-bottom: 12px;">
+                    Network Fundamentals
+                </h3>
+
+                <p style="color: #a2aaa5; line-height: 1.9;
+                font-size: 14px;">
+                    Cisco Packet Tracer<br>
+                    Wireshark<br>
+                    Network Analysis<br>
+                    Network Configuration
+                </p>
+            </div>
+
+            <div style="
+                background: #101512;
+                border: 1px solid #26352b;
+                padding: 25px;
+                border-radius: 10px;
+            ">
+                <p style="color: #75f0a5; font-size: 12px;
+                letter-spacing: 2px; margin-bottom: 18px;">
+                    03 / SECURITY
+                </p>
+
+                <h3 style="font-size: 20px; margin-bottom: 12px;">
+                    Cybersecurity
+                </h3>
+
+                <p style="color: #a2aaa5; line-height: 1.9;
+                font-size: 14px;">
+                    Network Security Fundamentals<br>
+                    Network Traffic Analysis<br>
+                    Secure Coding Fundamentals<br>
+                    Security Tools Exploration
+                </p>
+            </div>
+
+            <div style="
+                background: #101512;
+                border: 1px solid #26352b;
+                padding: 25px;
+                border-radius: 10px;
+            ">
+                <p style="color: #75f0a5; font-size: 12px;
+                letter-spacing: 2px; margin-bottom: 18px;">
+                    04 / DEVELOPER TOOLS
+                </p>
+
+                <h3 style="font-size: 20px; margin-bottom: 12px;">
+                    Tools & Platforms
+                </h3>
+
+                <p style="color: #a2aaa5; line-height: 1.9;
+                font-size: 14px;">
+                    Git & GitHub<br>
+                    Visual Studio Code<br>
+                    Linux Fundamentals<br>
+                    NumPy & Pandas Basics
+                </p>
+            </div>
+
+        </div>
+    </section>
+    <!-- END TECHNICAL SKILLS SECTION -->
+    <!-- PROJECTS SECTION -->
+    <section id="projects" style="padding: 100px 8%; background: #0b0b0b; color: #f5f5f5;">
+
+        <p style="color: #34d399; letter-spacing: 3px; font-size: 12px;">
+            03 / SELECTED WORK
+        </p>
+
+        <h2 style="font-size: clamp(32px, 5vw, 52px); margin: 15px 0;">
+            Projects built through <span style="color: #34d399;">practice.</span>
+        </h2>
+
+        <p style="color: #a3a3a3; max-width: 620px; line-height: 1.8; margin-bottom: 40px;">
+            A selection of hands-on projects exploring network security,
+            traffic analysis and secure software development.
+        </p>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px;">
+
+            <!-- PROJECT 1 -->
+            <article style="background: #111; border: 1px solid #292929; border-radius: 14px; padding: 28px;">
+                <p style="color: #34d399; font-size: 12px; letter-spacing: 2px;">
+                    PROJECT 01
+                </p>
+                <h3 style="font-size: 23px; margin: 18px 0 12px;">
+                    Network Traffic Sniffer
+                </h3>
+                <p style="color: #a3a3a3; line-height: 1.8; font-size: 14px;">
+                    A Python-based project using Scapy to capture and inspect
+                    network packets for learning network traffic analysis.
+                </p>
+                <p style="color: #d4d4d4; font-size: 12px; margin-top: 22px;">
+                    PYTHON · SCAPY · NETWORKING
+                    <a href="https://github.com/saudafzal-cs/Basic-Network-Sniffer" target="_blank"
+                        rel="noopener noreferrer"
+                        style="display: inline-block; margin-top: 18px; color: #34d399; text-decoration: none; font-size: 13px;">
+                        View Project ↗
+                    </a>
+                </p>
+            </article>
+
+            <!-- PROJECT 2 -->
+            <article style="background: #111; border: 1px solid #292929; border-radius: 14px; padding: 28px;">
+                <p style="color: #34d399; font-size: 12px; letter-spacing: 2px;">
+                    PROJECT 02
+                </p>
+                <h3 style="font-size: 23px; margin: 18px 0 12px;">
+                    Secure Corporate Network
+                </h3>
+                <p style="color: #a3a3a3; line-height: 1.8; font-size: 14px;">
+                    A simulated corporate network project focused on network
+                    configuration, connectivity testing and traffic inspection.
+                </p>
+                <p style="color: #d4d4d4; font-size: 12px; margin-top: 22px;">
+                    PACKET TRACER · WIRESHARK · IP SCANNER
+                    <a href="https://github.com/saudafzal-cs" target="_blank" rel="noopener noreferrer"
+                        style="display: inline-block; margin-top: 18px; color: #34d399; text-decoration: none; font-size: 13px;">
+                        View GitHub Profile ↗
+                    </a>
+
+                </p>
+            </article>
+
+            <!-- PROJECT 3 -->
+            <article style="background: #111; border: 1px solid #292929; border-radius: 14px; padding: 28px;">
+                <p style="color: #34d399; font-size: 12px; letter-spacing: 2px;">
+                    PROJECT 03
+                </p>
+                <h3 style="font-size: 23px; margin: 18px 0 12px;">
+                    Secure Coding Review
+                </h3>
+                <p style="color: #a3a3a3; line-height: 1.8; font-size: 14px;">
+                    A practical code review exercise focused on identifying
+                    potential security weaknesses and suggesting safer coding practices.
+                </p>
+                <p style="color: #d4d4d4; font-size: 12px; margin-top: 22px;">
+                    PYTHON · CODE REVIEW · SECURITY
+                    <a href="https://github.com/saudafzal-cs/Task-3-Secure-Coding-Review" target="_blank"
+                        rel="noopener noreferrer"
+                        style="display: inline-block; margin-top: 18px; color: #34d399; text-decoration: none; font-size: 13px;">
+                        View Project ↗
+                    </a>
+
+                </p>
+            </article>
+
+        </div>
+    </section>
+    <!-- END PROJECTS SECTION -->
+
+    <section id="contact" style="padding: 80px 8%; background: #080808; color: white; border-top: 1px solid #252525;">
+
+        <p style="color: #34d399; letter-spacing: 3px;">
+            04 / GET IN TOUCH
+        </p>
+
+        <h2 style="font-size: 45px; line-height: 1.2;">
+            Let's build something<br>
+            <span style="color: #34d399;">secure together.</span>
+        </h2>
+
+        <p style="color: #aaa; line-height: 1.8;">
+            I'm open to cybersecurity learning opportunities, internships
+            and meaningful projects where I can learn and grow.
+        </p>
+
+        <a href="https://github.com/saudafzal-cs" target="_blank"
+            style="display: inline-block; margin-top: 20px; padding: 14px 22px; background: #34d399; color: #080808; text-decoration: none; border-radius: 5px;">
+            Visit My GitHub ↗
+        </a>
+
+    </section>
+
+    <footer style="padding: 25px 8%; background: #080808; color: #777; border-top: 1px solid #252525; font-size: 12px;">
+        © 2026 SAUD_AFZAL. All rights reserved.
+    </footer>
+
+
+</body>
+
+</html>
